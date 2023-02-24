@@ -5,7 +5,7 @@ import { Followers } from '../../Data/FollowersData'
 const FollowersCard = () => {
   return (
     <div className="FollowersCard">
-        <h3>Who is following you</h3>
+        <h3>Your Followers</h3>
 
         {Followers. map((follower, id)=>{
             return(

@@ -17,7 +17,7 @@ function ProfileModal({ modalOpened, setModalOpened }) {
       onClose={() => setModalOpened(false)}
     >
       <form className="infoForm">
-        <h3>Your info</h3>
+        <h3>My info</h3>
 
         <div>
           <input
@@ -40,7 +40,7 @@ function ProfileModal({ modalOpened, setModalOpened }) {
             type="text"
             className="infoInput"
             name="worksAT"
-            placeholder="Works at"
+            placeholder="Univ name "
           />
         </div>
 
@@ -49,14 +49,14 @@ function ProfileModal({ modalOpened, setModalOpened }) {
             type="text"
             className="infoInput"
             name="livesIN"
-            placeholder="LIves in"
+            placeholder="Degree"
           />
 
           <input
             type="text"
             className="infoInput"
             name="Country"
-            placeholder="Country"
+            placeholder="Branch"
           />
         </div>
 
@@ -64,7 +64,7 @@ function ProfileModal({ modalOpened, setModalOpened }) {
           <input
             type="text"
             className="infoInput"
-            placeholder="RelationShip Status"
+            placeholder="Position"
           />
         </div>
 
