@@ -73,11 +73,60 @@
     height: 2rem;
     width: 90%;
   }
+
+    .message {
+      display: none;
+      /* hide the message by default */
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      /* center horizontally */
+      background-color: #fff;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+    }
+  
+    .google-login-button:hover+.message {
+      display: block;
+      /* show the message when the button is hovered */
+    }
+
+    /* Customize the style of the Google Login button */
+    .google-login-button {
+      display: inline-block;
+      background-color: #4285f4;
+      color: #fff;
+      border-radius: 2px;
+      box-shadow: 0 3px 4px rgba(0, 0, 0, 0.25);
+      transition: background-color 0.3s ease;
+    }
+  
+    .google-login-button:hover {
+      background-color: #357ae8;
+    }
+  
+    .google-login-button>div {
+      padding: 0.5em 1em;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  
+    /* Hide the default Google Login button text */
+    .google-login-button span {
+      display: none;
+    }
   
   .infoButton{
     width: 6rem;
     height: 2rem;
     align-self: flex-end;
+    
+  }
+
+  .gbutton:hover{
+    text-shadow: 2px 2px;
   }
   
   
@@ -85,6 +134,7 @@
       background-color: var(--cardColor);
       border-radius: 1rem;
       padding: 1rem;
+      box-shadow: 10px 10px;
   }
   
   .authForm>div{
