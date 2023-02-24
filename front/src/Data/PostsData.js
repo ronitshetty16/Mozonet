@@ -1,29 +1,29 @@
 import postPic1 from '../img/postpic1.jpg'
 import postPic2 from '../img/postpic2.jpg'
-import postPic3 from '../img/postpic3.JPG'
+import postPic3 from '../img/postpic3.jpg'
 
 
 export const PostsData = [
     {
         img: postPic1,
-        name: 'Tzuyu',
-        desc: "Happy New Year all friends! #2023",
-        likes: 2300,
+        name: 'Rahul Dhawan',
+        desc: "Happy New Year",
+        likes: 10,
         liked: true
     },
     {
         img: postPic2,
-        name: 'Maryam',
-        desc: "Party time :)",
-        likes: 2300,
+        name: 'Batman',
+        desc: "New car",
+        likes: 21,
         liked: false
 
     },
     {
         img:postPic3,
-        name: "Salena Gomez",
-        desc: "At Archery Festival",
-        likes: 800,
+        name: "Miles",
+        desc: "Space",
+        likes: 4,
         liked: false
     }
 ]
