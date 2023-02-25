@@ -16,7 +16,7 @@ const Auth = () => {
         <img src={Logo} alt="" />
         <div className="Webname">
           <h1>Mozonet</h1>
-          <h6>Explore ideas throughout the world</h6>
+          <h6>Explore and connect with your collegemates.</h6>
         </div>
       </div>
 
