@@ -14,13 +14,13 @@ const ProfileCard = () => {
 
 
     useEffect(() => {
-        const query = userQuery(userInfo?.googleId);
+        const query = userQuery(userInfo?.sub);
 
         client.fetch(query).then((data) => {
             setUser(data[0]);
         });
     }, []);
-
+    console.log(user?.userName);
 
   return (
     <div className="ProfileCard">
